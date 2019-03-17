@@ -1,0 +1,312 @@
+
+body{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* banner */
+#banner {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.banner{
+    background-image:url("../img/banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:90vh;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner__texto{
+    color:white;
+    padding-top: 45%;
+    margin-top:120px;
+}
+
+.banner__titulo{
+    font: 50px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.titulo__principal{
+    display: inline-block;
+    margin-top: 245px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+}
+
+.titulo__secundario{
+    color: white;
+    font-size: 30px;
+}
+
+.banner__subtitulo{
+    font-size:23px;
+    margin-bottom: 70px;
+}
+
+.btn-branco{
+    display: inline-block;
+    background-color: white;
+    color:purple;/*#7E459B;*/
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.sobre-mim{
+    /* border: 1px solid red;  */
+    margin: 0 15%;
+    text-align: left;
+}
+
+.sobre{
+    /* border: 1px solid red;  */
+    margin: 0 15%;
+    text-align: left;
+}
+
+.entre{
+    /* border: 1px solid red;  */
+    margin: 0 15%;
+    text-align: left;
+}
+
+.cozinha{
+    /* border: 1px solid red;  */
+    margin: 0 15%;
+    text-align: left;
+}
+
+.exp{
+    /* border: 1px solid red;  */
+    margin: 0 15%;
+    text-align: left;
+}
+
+.destaque{
+    color:purple;
+    font-weight: bold;
+}
+/*Home*/
+.sobre-mim__descricao, .sobre-mim__habilidades{
+    display:inline-block;
+    width: 35%;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 30px;
+    padding-left: 70px;
+}
+
+.sobre-mim__habilidades{
+    margin-left: 70px;
+    vertical-align: top;
+}
+
+.sobre-mim__detalhes{
+    display:inline-block;
+    width: 70%;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.sobre-mim__detalhes{
+    margin-left: 25px;
+    vertical-align: top;
+}
+
+.sobre-mim__titulo{
+    font-size: 30px;
+    text-align: center;
+    color:#C4C4C4;
+    margin:20px 0;
+}
+.sobre-mim__descricao p{
+    margin-bottom: 20px;
+}
+.habilidades__titulo{
+    font-size:25px;
+    margin-bottom: 30px;
+}
+.habilidades__lista{
+    padding-left: 20px;
+}
+
+/*Detalhes sobre mim*/
+.sobre__titulode{
+    font-size: 30px;
+    text-align: center;
+    color:#C4C4C4;
+    margin:20px 0;
+}
+.sobre__lista{
+    padding-left: 60px;
+}
+.sobre__detalhes{
+    margin-left: 48px;
+    vertical-align: top;
+}
+.sobre__descricao, .sobre__detalhes{
+    display:inline-block;
+    width: 35%;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-left: 70px;
+}
+
+/*Entretenimento*/
+.entre__titulode{
+    font-size: 30px;
+    text-align: center;
+    color:#C4C4C4;
+    margin:20px 0;
+}
+.entre__lista{
+    padding-left: 60px;
+}
+.entre__detalhes{
+    margin-left: 48px;
+    vertical-align: top;
+}
+.entre__descricao, .entre__detalhes{
+    display:inline-block;
+    width: 35%;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-left: 70px;
+}
+
+/*Culinária*/
+.cozinha__titulode{
+    font-size: 30px;
+    text-align: center;
+    color:#C4C4C4;
+    margin:20px 0;
+}
+.cozinha__lista{
+    padding-left: 60px;
+}
+.cozinha__detalhes{
+    margin-left: 48px;
+    vertical-align: top;
+}
+.cozinha__descricao, .cozinha__detalhes{
+    display:inline-block;
+    width: 35%;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-left: 70px;
+}
+
+/*Experiências de vida*/
+.exp__descricao, .exp__detalhes{
+    display: contents;
+    height: 30px;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.exp__detalhes{
+    height: 30px;
+    margin-left: 0px;
+    vertical-align: top;
+}
+
+/*rodapé*/
+.rodape{
+
+}
+.rodape__contatos{
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 20%;
+    align-items: center;
+}
+
+.contatos__link{
+   background-color: #7e459b;
+   padding: 25px 30px;
+   text-align: center;
+   width: 200px;  
+   margin-right: 25px;
+}
+
+.contatos__link-img{
+    width: 71px;
+    height: 70px;
+    margin-bottom: 15px;   
+}    
+
+.contatos__link h4, .contatos__link p{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.contatos__link h4{
+    font-weight: bold;
+}
+
+.contatos__link p{
+    font-weight: lighter;
+}
+
+.copyright{
+    color: #C4C4C4;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* .btn-roxo{
+    border: 1px solid purple; 
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+} */
+
+/* .detalhes__titulo{
+    font-size:25px;
+    margin-bottom: 30px;
+} */
+
+/* .detalhes__titulo{
+    font-size:25px;
+    margin-bottom: 30px;
+}
+
+ */
